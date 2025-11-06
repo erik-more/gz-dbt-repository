@@ -5,6 +5,7 @@ select
   , o.date_date
   , round(o.margin + s.shipping_fee - (s.logcost + s.ship_cost), 2) as operational_margin
   , o.quantity
+  , o.revenue
   , o.purchase_cost
   , o.margin
   , s.shipping_fee
